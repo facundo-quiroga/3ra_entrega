@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .posteos {
+        .ocultarSm{
+        display: none;
+        }
+    }
+}
+
+.post{
+    background-color: $ColorPrimario;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+
+    button {
+        background-color: $ColorButton;
+        border: none;
+        color: white;
+        border-radius: 5px;
+
+    }
+
+    h5{
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
