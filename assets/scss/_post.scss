@@ -6,18 +6,23 @@
     }
 }
 
+@mixin margenes ($margenes,$paddings) {
+    margin: $margenes;
+    padding: $paddings;
+}
+
 .post{
     background-color: $ColorPrimario;
-    color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 15px;
+    color: map-get($recuadros, color);
+    border-radius: map-get($recuadros, radio);
+    @include margenes(10px,15px);
+
 
     button {
         background-color: $ColorButton;
-        border: none;
-        color: white;
-        border-radius: 5px;
+        border: map-get($recuadros, bordes);
+        color: map-get($recuadros, color);
+        border-radius: map-get($recuadros, radio);
 
     }
 

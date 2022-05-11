@@ -5,6 +5,11 @@ $ColorOscuro: #E3610B;
 $ColorButton: #FD4819;
 $fuente: Roboto;
 
+$recuadros:(
+    bordes:0,
+    color: white,
+    radio: 10px
+    );
 
 a:link, a:visited,  a:hover, a:active
 {

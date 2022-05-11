@@ -23,3 +23,15 @@ nav  {
     }
     }
 }
+
+.nav-item {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.nav-item-academy {
+    @extend.nav-item;
+    background-color: $ColorSecundario;
+
+}
+
