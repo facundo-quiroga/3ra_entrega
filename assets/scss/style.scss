@@ -4,7 +4,10 @@
 @import "_post";
 @import "_casos";
 
+.barra__navegacion{
+    background-color: $ColorPrimario;
 
+}
 nav  {
     background-color: $ColorPrimario;
     ul{

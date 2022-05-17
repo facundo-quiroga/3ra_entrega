@@ -44,7 +44,7 @@ footer h5 {
 }
 
 footer .copyright {
-  background-color: #FFC500;
+  background-color: #f8b859;
   color: grey;
 }
 
@@ -81,12 +81,16 @@ footer .copyright {
 
 .caso .texto__empresa {
   text-align: center;
-  background-color: #FFC500;
+  background-color: #f8b859;
   padding: 5px;
 }
 
 .caso .texto__empresa h2 {
   font-size: 16px;
+}
+
+.barra__navegacion {
+  background-color: #FA9525;
 }
 
 nav {
@@ -119,6 +123,6 @@ nav ul li a {
 }
 
 .nav-item-academy {
-  background-color: #FFC500;
+  background-color: #f8b859;
 }
 /*# sourceMappingURL=style.css.map */
