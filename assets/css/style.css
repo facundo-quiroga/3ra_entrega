@@ -3,6 +3,34 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.articulo h3 {
+  font-size: 35px;
+  font-family: roboto;
+  color: #FA9525;
+  margin-top: 10px !important;
+  margin-left: 5px;
+}
+
+.articulo h4 {
+  font-size: 30px;
+  font-family: roboto;
+  color: #FF4F17;
+  margin-top: 15px !important;
+  margin-left: 10px;
+}
+
+.articulo a {
+  font-size: 30px;
+  font-family: roboto;
+  color: #FF4F17;
+}
+
 .carousel h5 {
   color: white;
   background-color: #FA9525;
